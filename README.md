@@ -1,9 +1,10 @@
 # create-gitignore
+
 A simple CLI to generate .gitignore
 
 It fetches templates from the official github repo for .gitignores: https://github.com/github/gitignore
 
-## Usage 
+## Usage
 
 ```sh
 npm install -g create-gitignore
@@ -11,17 +12,18 @@ create-gitignore <template>
 ```
 
 Fetches a list of available templates
+
 ```sh
 create-gitignore list
 ```
 
-Generate a .gitignore file from template. 
+Generate a .gitignore file from template.
 
 ```sh
 create-gitignore <template>
 ```
-**Warning**: *Case Sensitive!*
 
+**Warning**: _Case Sensitive!_
 
 ## Developing
 
@@ -31,4 +33,5 @@ npm start
 ```
 
 ## Todo
-* Remove case sensitiveness
+
+- Remove case sensitiveness
